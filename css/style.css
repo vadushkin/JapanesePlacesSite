@@ -42,6 +42,11 @@ body {
     color: #102746;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .wrapper {
     max-width: 1060px;
     margin: 0 auto;
@@ -156,6 +161,7 @@ body {
     font-weight: 500;
     font-size: 24px;
     border: 0;
+    transition: .45s all;
 }
 
 .search-form__submit:hover, search-form__submit:focus, search-form__submit:active {
@@ -164,4 +170,87 @@ body {
 
 /* ############################################################### */
 /* Intro block end */
+/* ############################################################### */
+
+/* ############################################################### */
+/* Benefits block start */
+/* ############################################################### */
+
+.benefits {
+    margin-bottom: 131px;
+}
+
+.benefits__wrapper {
+    max-width: 1262px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 2px 20px rgba(21, 24, 36, 0.15993);
+    position: relative;
+}
+
+.benefits__title {
+    width: 100%;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    padding: 93px 100px 88px 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    background-color: white;
+}
+
+.benefits__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 55px;
+    padding: 0 100px;
+}
+
+.benefits__card {
+    grid-column: span 1;
+    margin-bottom: 112px;
+}
+
+.benefits__card-image-wrapper {
+    max-width: 66px;
+    margin-bottom: 37px;
+}
+
+.benefits__card-image {
+    display: block;
+}
+
+.benefits__card-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 26px;
+}
+
+.benefits__card-text {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 317px;
+    padding-bottom: 39px;
+}
+
+.benefits__card-link {
+    display: inline-block;
+    padding-right: 59px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #006DFE;
+    text-decoration: none;
+    background: url(../img/svg/card-arrow.svg) no-repeat 95% center;
+    transition: .2s all;
+}
+
+.benefits__card-link:hover, .benefits__card-link:focus {
+    background: url(../img/svg/card-arrow.svg) no-repeat right center;
+}
+
+/* ############################################################### */
+/* Benefits block end */
 /* ############################################################### */
