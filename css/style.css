@@ -99,9 +99,67 @@ body {
 /* ############################################################### */
 
 .intro {
-    height: 100vh;
+    min-height: 100vh;
     background: url(../img/intro-bg.jpg) no-repeat center;
     background-size: cover;
+    padding-top: 263px;
+}
+
+.intro__title {
+    color: white;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    max-width: 619px;
+    margin-bottom: 22px;
+}
+
+.intro__subtitle {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 546px;
+    margin-bottom: 59px;
+}
+
+.search-form__info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-form__field {
+    width: 297px;
+    background: transparent url(../img/svg/circle-input-intro.svg) no-repeat left 7px;
+    background-size: 20px;
+    border: 0;
+    border-bottom: 2px solid #BFC0C5;
+    margin-right: 60px;
+    padding-left: 43px;
+    padding-bottom: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+}
+
+.search-form__field::placeholder {
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+}
+
+.search-form__submit {
+    padding: 15px 39px;
+    text-transform: uppercase;
+    background: #1B7DFF;
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    border: 0;
+}
+
+.search-form__submit:hover, search-form__submit:focus, search-form__submit:active {
+    background: #0055c5;
 }
 
 /* ############################################################### */
