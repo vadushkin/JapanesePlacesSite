@@ -390,3 +390,57 @@ img {
 /* ############################################################### */
 /* Places block end */
 /* ############################################################### */
+
+
+/* ############################################################### */
+/* Tours block start */
+/* ############################################################### */
+
+.tours {
+    margin-bottom: 139px;
+}
+
+.tours__tour {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 108px;
+    align-items: center;
+    margin-bottom: 77px;
+}
+
+.tour__info {
+    padding-left: 47px;
+}
+
+.tour__title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 85px;
+}
+
+.tour__description {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 58px;
+    max-width: 519px;
+}
+
+.tour__link {
+    padding-right: 59px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #006DFE;
+    background: url(../img/svg/card-arrow.svg) no-repeat 95% center;
+    transition: .2s all;
+}
+
+.tour__link:hover, .tour__link:focus {
+    background: url(../img/svg/card-arrow.svg) no-repeat right center;
+}
+
+
+/* ############################################################### */
+/* Tours block end */
+/* ############################################################### */
+
