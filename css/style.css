@@ -123,7 +123,7 @@ img {
 }
 
 .header__link:hover, .header__link:focus, .header__link:active {
-    opacity: 85%;
+    opacity: 60%;
 }
 
 /* ############################################################### */
@@ -550,3 +550,82 @@ img {
 /* Top places block end */
 /* ############################################################### */
 
+
+/* ############################################################### */
+/* Videos block start */
+/* ############################################################### */
+
+.videos {
+    width: 100%;
+}
+
+.videos__wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.video__item {
+    padding-top: 56.25%;
+}
+
+.video__element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+/* ############################################################### */
+/* Videos block end */
+/* ############################################################### */
+
+
+/* ############################################################### */
+/* Footer block start */
+/* ############################################################### */
+
+.footer {
+    background: #0E1D28;
+    padding: 119px 0;
+}
+
+.footer__item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__logo {
+    width: 50%;
+}
+
+.footer__nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.footer__menu-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+}
+
+.footer__menu-link {
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer__menu-link:hover, .footer__menu-link:focus, .footer__menu-link:active {
+    opacity: 60%;
+}
+
+/* ############################################################### */
+/* Footer block end */
+/* ############################################################### */
