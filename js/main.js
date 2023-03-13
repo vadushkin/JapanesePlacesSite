@@ -8,3 +8,17 @@
         }
     }
 }());
+
+(function () {
+    const burger = document.querySelector('.burger');
+    const header_nav = document.querySelector('.header__nav');
+    const header_nav_close = document.querySelector('.header__nav-close');
+
+    burger.addEventListener('click', () => {
+        header_nav.classList.add('header__nav_active');
+    });
+
+    header_nav_close.addEventListener('click', () => {
+        header_nav.classList.remove('header__nav_active');
+    });
+}());
