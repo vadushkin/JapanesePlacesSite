@@ -85,6 +85,13 @@ img {
     top: 0;
     left: 0;
     width: 100%;
+    transition: .4s linear;
+    padding-bottom: 20px;
+    z-index: 1000;
+}
+
+.header_active {
+    background: #0E1D28;
 }
 
 .header__wrapper {
