@@ -356,7 +356,8 @@ img {
 .places__cards {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-gap: 10px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
 }
 
 .places__card {
@@ -441,7 +442,7 @@ img {
 .tours__tour {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 0 108px;
+    grid-column-gap: 108px;
     align-items: center;
     margin-bottom: 77px;
 }
@@ -494,6 +495,7 @@ img {
 .top-places__card {
     display: flex;
     flex-direction: column;
+    grid-column: span 2;
 }
 
 .top-places__title {
@@ -528,8 +530,9 @@ img {
 
 .top-places__cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 57px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 57px;
+    grid-row-gap: 57px;
 }
 
 .top-places__card-likes {
